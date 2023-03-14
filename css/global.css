@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 5px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.container > ul {
+  width: 620px;
+}
+.container > ul li {
+  color: #3D37F1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.left-card h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: #534D4D;
+}
+.left-card h2 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #534D4D;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 70px;
+}
+.left-card button {
+  width: 260px;
+  height: 77px;
+  border-radius: 38px;
+  background-color: #3D37F1;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 23px;
+  border: none;
+}
+
+.s-1 .container img {
+  width: 650px;
+  height: 420px;
+}
+
+.s-2 {
+  background-color: #F8F8F8;
+}
+.s-2 .title {
+  max-width: 650px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+.s-2 .title h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+  color: #3D37F1;
+}
+.s-2 .title h4 {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+  color: #5A5454;
+}
+.s-2 .title p {
+  font-size: 18px;
+  color: #747474;
+  margin-bottom: 67px;
+}
+.s-2 .cards {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.s-2 .cards div {
+  width: 370px;
+  height: 451px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.s-2 .cards div img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 60px;
+}
+.s-2 .cards div h5 {
+  font-size: 22px;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.s-2 .cards div p {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.s-2 .cards div button {
+  width: 130px;
+  height: 45px;
+  background-color: #FFFFFF;
+  border-radius: 23px;
+  font-size: 15px;
+  color: #4B647E;
+  border: none;
+}
+.s-2 .cards .card1 {
+  background-color: #FBBA77;
+  background-image: linear-gradient(#FBBA77, #DFA871);
+  margin-bottom: 60px;
+}
+.s-2 .cards .card2 {
+  background-color: #41EAE3;
+  background-image: linear-gradient(#41EAE3, #2293B7);
+  margin-bottom: 60px;
+}
+.s-2 .cards .card3 {
+  background-color: #69529F;
+  background-image: linear-gradient(#69529F, #463864);
+  margin-bottom: 60px;
+}
+.s-2 .cards .card4 {
+  background-color: #4386D2;
+  background-image: linear-gradient(#4386D2, #0962C5);
+}
+.s-2 .cards .card5 {
+  background-color: #A5A2F6;
+  background-image: linear-gradient(#A5A2F6, #564FD6);
+}
+.s-2 .cards .card6 {
+  background-color: #FF8088;
+  background-image: linear-gradient(#FF8088, #984141);
+}/*# sourceMappingURL=global.css.map */

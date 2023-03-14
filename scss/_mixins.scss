@@ -1,0 +1,17 @@
+@mixin flexs($justify: space-between, $alighn: center, $direction: row) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $alighn;
+    flex-direction: $direction;
+}
+
+@mixin font {
+    font-family: 'Roboto', sans-serif;
+}
+
+@mixin card-style {
+    width: 370px;
+	height: 451px;
+    border-radius: 10px;
+
+}
